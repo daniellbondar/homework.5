@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+p{
+    line-height: 40px;
+}
+
+.link1{
+    color: blue;
+    text-decoration: none;
+}
+
+.link2{
+    color: orangered;
+    text-decoration: none;
+}
+
+.link3{
+    text-decoration: none;
+}
+
+.link1:hover{
+color: green;
+text-decoration: underline;
+}
+  
+.link2:hover{
+    color: blue;
+text-decoration: line-through;
+}
+
+.link3:hover{
+color: orangered;
+text-decoration: overline;
+}
